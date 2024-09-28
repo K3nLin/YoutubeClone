@@ -1,3 +1,68 @@
 .header{
+    height: 55px;
     display: flex;
+    justify-content: space-between;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.menu-hamburger{
+    height: 25px;
+    margin-left: 21px;
+    margin-right: 19px;
+}
+
+.youtube-logo{
+    height: 22px;
+}
+
+.middle-section{
+    display: flex;
+    align-items: center;
+    background-color: lightcoral;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+}
+
+.search-bar{
+    flex: 1;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.search-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 75px;
+    margin-right: 6px;
+}
+
+.search-icon{
+    width: 24px;
+}
+
+.voice-search-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 22.5px;
+    border: none;
+}
+
+.voice-search-icon{
+    width: 25px;
+}
+
+.right-section{
+    background-color: lightblue;
+    width: 250px;
 }
