@@ -1,7 +1,12 @@
 .header{
-    height: 55px;
+    height: 65px;
     display: flex;
     justify-content: space-between;
+    background-color: white;
+    opacity: .8;
+    position: fixed;
+    width: 100%;
+    top: 0px;
 }
 
 .left-section{
@@ -75,7 +80,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: lightblue;
     width: 230px;
     flex-shrink: 0;
 }
@@ -83,10 +87,22 @@
 .create-button{
     display: flex;
     align-items: center;
+    height: 36px;
+    width: 95px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.plus-icon{
+    margin-right: 3px   ;
 }
 
 .notifications-icon{
     width: 25px;
+    margin-right: 23px;
 }
 
 .profile-picture{
@@ -94,4 +110,5 @@
     height: 38px;
     object-fit: cover;
     border-radius: 19px;
+    margin-right: 35px;
 }

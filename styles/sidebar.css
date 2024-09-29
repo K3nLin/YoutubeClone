@@ -1,0 +1,43 @@
+.side-bar-menu{
+    display: flex;
+    background-color: black;
+    width: 230px;
+    height: 100%;
+    position: fixed;
+    flex-direction: column;
+}
+
+.side-bar-menu-upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    width: 85%;
+    height: 125px;
+    margin-left: 7.5%;
+}
+
+.side-bar-menu-mid{
+    background-color: rgb(201, 25, 25);
+    width: 100%;
+    height: 375px;
+}
+
+.side-menu-button{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: 45px;
+    border-radius: 7px;
+    border: none;
+}
+
+.side-menu-button:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+.side-menu-icon{
+    width: 25px;
+    height: 25px;
+}

@@ -1,4 +1,5 @@
 .video-grid{
+    padding-left: 245px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
