@@ -14,16 +14,20 @@
     <body>
         <header class="header">
             <div class="left-section">
-                <img class="menu-hamburger" src="Images/icons/hamburger-menu.svg" alt="menu-hamburger">
+                <button class="menu-hamburger">
+                    <img class="menu-hamburger-icon" src="Images/icons/hamburger-menu.svg" alt="menu-hamburger">
+                </button>
                 <img class="youtube-logo" src="Images/icons/youtube-logo.svg" alt="youtube-logo">
             </div>
             <div class="middle-section">
                 <input class="search-bar" placeholder="Search">
                 <button class="search-button">
                     <img class="search-icon" src="Images/icons/search.svg" alt="search-icon">
+                    <div class="tooltip">Search</div>
                 </button>
                 <button class="voice-search-button">
                     <img class = "voice-search-icon" src="Images/icons/voice-search-icon.svg" alt="voice-search">
+                    <div class="tooltip">Search with your voice</div>
                 </button>
             </div>
             <div class="right-section">
@@ -31,37 +35,46 @@
                     <img class="plus-icon" src="Images/icons/plus-icon.svg" alt="plus-icon">
                     <p>Create</p>
                 </button>
-                <img class="notifications-icon" src="Images/icons/notifications.svg" alt="notifications">
+                <button class="notifications-button">
+                    <img class="notifications-icon" src="Images/icons/notifications.svg" alt="notifications">
+                    <div class="tooltip">Notifications</div>
+                </button>
                 <img class="profile-picture" src="Images/profilepics/couplacuties.jpg" alt="Profile Picture">
             </div>
         </header>
-        <div class="side-bar-menu">
+        <nav class="side-bar-menu">
             <div class="side-bar-menu-upper">
                 <button class="side-menu-button">
                     <img class="side-menu-icon" src="Images/icons/home-icon.svg" alt="Home Button">
+                    <p>Home</p>
                 </button>
                 <button class="side-menu-button">
                     <img class="side-menu-icon" src="Images/icons/shorts-icon.svg" alt="Shorts Button">
+                    <p>Shorts</p>
                 </button>
                 <button class="side-menu-button">
                     <img class="side-menu-icon" src="Images/icons/subscriptions-icon.svg" alt="subscriptions-icon Button">
+                    <p>Subscriptions</p>
                 </button>
             </div>
             <div class="side-bar-menu-mid">
-                <!-- <button class="side-menu-button">
+                <button class="side-menu-button">
                     <img class="side-menu-icon" src="Images/icons/you-icon.svg" alt="Home Button">
+                    <p>You</p>
                 </button>
                 <button class="side-menu-button">
                     <img class="side-menu-icon" src="Images/icons/history-icon.svg" alt="Home Button">
-                </button> -->
+                    <p>History</p>
+                </button>
             </div>
             
-        </div>
-        <div class="video-grid">
+        </nav>
+        <main class="video-grid">
 
             <div class="video-item">
                 <div class="video-thumbnail-cont">
                     <img class="thumbnails" src="Images/thumbnails/autumnjazz.webp" alt="autumnjazz-thumb">
+                    <p class="video-timestamp">11:54:57</p>
                 </div>
                 <div class="video-info">
                     <div class="channel-img-cont">
@@ -78,6 +91,7 @@
             <div class="video-item">
                 <div class="video-thumbnail-cont">
                     <img class="thumbnails" src="Images/thumbnails/happycafe.webp" alt="Happy Cafe Thumbnail">
+                    <p class="video-timestamp">11:55:00</p>
                 </div>
                 <div class="video-info">
                     <div class="channel-img-cont">
@@ -94,6 +108,7 @@
             <div class="video-item">
                 <div class="video-thumbnail-cont">
                     <img class="thumbnails" src="Images/thumbnails/Deepfocus.webp" alt="Deepfocus">
+                    <p class="video-timestamp">11:54:56</p>
                 </div>
                 <div class="video-info">
                     <div class="channel-img-cont">
@@ -110,6 +125,7 @@
             <div class="video-item">
                 <div class="video-thumbnail-cont">
                     <img class="thumbnails" src="Images/thumbnails/tyler1.webp" alt="Tyler1 Thumbnail">
+                    <p class="video-timestamp">31:34</p>
                 </div>
                 <div class="video-info">
                     <div class="channel-img-cont">
@@ -126,6 +142,7 @@
             <div class="video-item">
                 <div class="video-thumbnail-cont">
                     <img class="thumbnails" src="Images/thumbnails/linustech.webp" alt="Linus Tech Thumb">
+                    <p class="video-timestamp">21:11</p>
                 </div>
                 <div class="video-info">
                     <div class="channel-img-cont">
@@ -142,6 +159,7 @@
             <div class="video-item">
                 <div class="video-thumbnail-cont">
                     <img class="thumbnails" src="Images/thumbnails/LOFT.webp" alt="LOFI thumbnail">
+                    <p class="video-timestamp">11:54:56</p>
                 </div>
                 <div class="video-info">
                     <div class="channel-img-cont">
@@ -155,6 +173,108 @@
                 </div>
             </div>
 
-        </div>
+            <div class="video-item">
+                <div class="video-thumbnail-cont">
+                    <img class="thumbnails" src="Images/thumbnails/randb.webp" alt="R and B">
+                    <p class="video-timestamp">3:00:01</p>
+                </div>
+                <div class="video-info">
+                    <div class="channel-img-cont">
+                        <img class="video-author-img" src="Images/profilepics/randb.jpg" alt="R and B">
+                    </div>
+                    <div class="video-description">
+                        <p class="video-title">Nostalgia ~ 2000's R&B/SoulPlaylist Nelly, Rihanna, Usher</p>
+                        <p class="video-author">RnB 90s Mix</p>
+                        <p class="video-stats">1.3M views &#183; 1 month ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-item">
+                <div class="video-thumbnail-cont">
+                    <img class="thumbnails" src="Images/thumbnails/MusicVid.webp" alt="Music Vid 1">
+                    <p class="video-timestamp">2:16</p>
+                </div>
+                <div class="video-info">
+                    <div class="channel-img-cont">
+                        <img class="video-author-img" src="Images/profilepics/musicvid.jpg" alt="OWAZYMcom">
+                    </div>
+                    <div class="video-description">
+                        <p class="video-title">Mekan Saryyew - 10 lyga urdyn (official clip)</p>
+                        <p class="video-author">OWAZYMcom</p>
+                        <p class="video-stats">48 views &#183; 2 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-item">
+                <div class="video-thumbnail-cont">
+                    <img class="thumbnails" src="Images/thumbnails/musicvid2.webp" alt="Music Vid 2">
+                    <p class="video-timestamp">3:49:57</p>
+                </div>
+                <div class="video-info">
+                    <div class="channel-img-cont">
+                        <img class="video-author-img" src="Images/profilepics/LOFI.jpg" alt="CHILL VILLAGE">
+                    </div>
+                    <div class="video-description">
+                        <p class="video-title">Alok, Dua Lipa, Coldplay, Martin Garrix & Kygo, The Chainsmokers</p>
+                        <p class="video-author">Deep Universe Radio</p>
+                        <p class="video-stats">1.1M views &#183; 2 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-item">
+                <div class="video-thumbnail-cont">
+                    <img class="thumbnails" src="Images/thumbnails/sports.webp" alt="Sports">
+                    <p class="video-timestamp">3:49:57</p>
+                </div>
+                <div class="video-info">
+                    <div class="channel-img-cont">
+                        <img class="video-author-img" src="Images/profilepics/sports.jpg" alt="The Pat McAfee Show">
+                    </div>
+                    <div class="video-description">
+                        <p class="video-title">The Pat McAfee Show Live | Wednesday September 25th 2024</p>
+                        <p class="video-author">The Pat McAfee Show</p>
+                        <p class="video-stats">65K watching</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-item">
+                <div class="video-thumbnail-cont">
+                    <img class="thumbnails" src="Images/thumbnails/weather.webp" alt="NBC NEWS">
+                    <p class="video-timestamp">3:49:57</p>
+                </div>
+                <div class="video-info">
+                    <div class="channel-img-cont">
+                        <img class="video-author-img" src="Images/profilepics/weather.jpg" alt="NBC NEWS">
+                    </div>
+                    <div class="video-description">
+                        <p class="video-title">LIVE: Hurricane Helene tracker</p>
+                        <p class="video-author">NBC News</p>
+                        <p class="video-stats">1.4K watching</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-item">
+                <div class="video-thumbnail-cont">
+                    <img class="thumbnails" src="Images/thumbnails/zed123.webp" alt="Zed99">
+                    <p class="video-timestamp">11:05</p>
+                </div>
+                <div class="video-info">
+                    <div class="channel-img-cont">
+                        <img class="video-author-img" src="Images/profilepics/zed99.jpg" alt="Zed99">
+                    </div>
+                    <div class="video-description">
+                        <p class="video-title">Showed PzZang Tanky Zed</p>
+                        <p class="video-author">Zed99</p>
+                        <p class="video-stats">34k views &#183; 2 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
     </body>
 </html>
