@@ -31,7 +31,7 @@
 }
 
 .menu-hamburger:hover{
-    background-color: rgba(221, 221, 221, 0.8);
+    background-color: rgba(211, 211, 211, 0.8);
 }
 
 .youtube-logo{
@@ -101,7 +101,7 @@
     justify-content: center;
     align-items: center;
     text-wrap: nowrap;
-    background-color: rgba(230, 230, 230, .8);
+    background-color: rgba(248, 248, 248, .8);
     border-radius: 22.5px;
     border: none;
     height: 45px;
@@ -125,7 +125,7 @@
 }
 
 .voice-search-button:hover{
-    background-color: rgba(221, 221, 221, 0.8); 
+    background-color: rgba(211, 211, 211, 0.8); 
 }
 
 .voice-search-icon{
@@ -143,7 +143,7 @@
 .create-button{
     display: flex;
     align-items: center;
-    background-color: rgba(230, 230, 230, .8);
+    background-color: rgba(248, 248, 248, .8);
     font-size: 14px;
     font-weight: 650;
     border-radius: 18px;
